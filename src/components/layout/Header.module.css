@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 0;
+    z-index: 100;
+    mix-blend-mode: difference;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing-md);
+}
+
+.logo {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    opacity: 0.8;
+    color: #eee;
+}
+
+.nav a:hover {
+    opacity: 1;
+    color: var(--color-accent);
+}
+
+.bookBtn {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.6rem 1.8rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+}
+
+.bookBtn:hover {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff !important;
+}

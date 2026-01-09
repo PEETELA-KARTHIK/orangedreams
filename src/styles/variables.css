@@ -1,0 +1,22 @@
+:root {
+  --color-bg: #050505;
+  --color-text: #f0f0f0;
+  --color-text-muted: #888888;
+  --color-accent: #ff4d00;
+  --color-accent-subtle: #cc3d00;
+  --color-surface: #111111;
+  --color-border: #222222;
+
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  --spacing-xxl: 8rem;
+
+  /* Font variables will be injected by Next.js */
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+  
+  --container-width: 1400px;
+  --ease-slow: cubic-bezier(0.65, 0, 0.35, 1);
+}

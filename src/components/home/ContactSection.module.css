@@ -1,0 +1,68 @@
+.contact {
+    padding: var(--spacing-xxl) 0;
+    background: linear-gradient(to bottom, var(--color-surface), var(--color-bg));
+    text-align: center;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.content h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: var(--spacing-md);
+    color: #fff;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-xl);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.primaryBtn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--color-accent);
+    color: #fff;
+    border-radius: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.primaryBtn:hover {
+    background: var(--color-accent-subtle);
+    transform: translateY(-2px);
+}
+
+.secondaryBtn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: 1px solid var(--color-border);
+    color: #fff;
+    border-radius: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+}

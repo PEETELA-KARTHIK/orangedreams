@@ -1,0 +1,27 @@
+{
+  "name": "orange-dreams",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.33",
+    "@use-gesture/react": "^10.3.1",
+    "framer-motion": "^12.24.12",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.316.0",
+    "matter-js": "^0.20.0",
+    "next": "14.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
